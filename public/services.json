@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Neurology Care",
+        "price": "1300",
+        "description": "A neurologist is a medical doctor who specializes in treating diseases of the nervous system. The nervous system is made of two parts: the central and peripheral nervous system. It includes the brain and spinal cord.",
+        "img": "https://i.ibb.co/n73Z2Lb/hal-gatewood-Ogvq-XGL7-XO4-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dental Care",
+        "price": "800",
+        "description": "You've never seen teeth whitening like this! The all-new Crest Whitening Emulsions is a breakthrough formula. Tooth decay and gum disease are caused by plaque, a sticky combination of bacteria and food. Plaque begins to build up on teeth.",
+        "img": "https://i.ibb.co/K2TK2QY/demtal.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Eye Operations",
+        "price": "1700",
+        "description": "eye surgery is the best known and most commonly performed laser refractive surgery to correct vision problems. Laser-assisted in situ keratomileusis (LASIK) can be an alternative to glasses or contact lenses.",
+        "img": "https://i.ibb.co/XyM4DD7/eye.jpg"
+    }
+    
+]
