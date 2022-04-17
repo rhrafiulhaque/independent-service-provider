@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Banner from './Component/Banner/Banner';
+import CheckOut from './Component/CheckOut/CheckOut';
 import Footer from './Component/Footer/Footer';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
@@ -21,6 +22,7 @@ function App() {
         <Route path='/footer' element={<Footer></Footer>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/checkout' element={<CheckOut></CheckOut>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/services/:id' element={<ServicesDetails></ServicesDetails>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
