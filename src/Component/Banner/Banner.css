@@ -1,3 +1,16 @@
 .color-dark{
     color: black;
 }
+.slide-img{
+    height: 120vh;
+    
+}
+
+
+/* make services responsive */
+@media only screen and (max-width:576px) {
+    .slide-img{
+        height: 100%;
+
+    }
+}

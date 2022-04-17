@@ -7,7 +7,7 @@ const Service = ({ service }) => {
     const navigate = useNavigate();
 
     const navigateToServiceDetail = id => {
-        navigate(`/service/${id}`);
+        navigate(`/services/${id}`);
     }
     return (
         <div className='g-5 col-sm-12 col-md-4'>
@@ -16,7 +16,7 @@ const Service = ({ service }) => {
                 <h2>{name}</h2>
                 <p className='price'>Price: ${price}</p>
                 <p><small>{description}</small></p>
-                <button onClick={() => navigateToServiceDetail(id)} className='btn btn-primary'>Book: {name}</button>
+                <button onClick={() => navigateToServiceDetail(id)} className='btn btn-primary'>Book For {name}</button>
             </div>
         </div>
     );
