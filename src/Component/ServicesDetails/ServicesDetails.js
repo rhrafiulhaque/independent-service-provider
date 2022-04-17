@@ -15,9 +15,9 @@ const ServicesDetails = () => {
         <div className='register-form'>
             <h2 className='text-center text-success mb-5 mt-5'>Please Give Your Information</h2>
             <form onSubmit={handleCheckout}>
-                <input type="text" value={user?.displayName} name="name" id="" placeholder='Your Name' />
+                <input type="text" value={user?.displayName} readOnly name="name" id="" placeholder='Your Name' />
 
-                <input type="email" value={user?.email} name="email" id="" placeholder='Email Address' required />
+                <input type="email" value={user?.email} readOnly name="email" id="" placeholder='Email Address' required />
 
                 <input type="text" name="address" id="" placeholder='Address' required />
                 <input type="number" name="phone" id="" placeholder='Mobile Number ' required />
