@@ -3,9 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile} from 'react-firebase-hooks/auth';
 import './Register.css';
 import auth from '../../firebase.init';
-// import SocialLogin from '../SocialLogin/SocialLogin';
 import Loading from '../Loading/Loading';
 import { Button, Form } from 'react-bootstrap';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
     const [
@@ -59,7 +59,7 @@ const Register = () => {
             </Form>
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
                         
-            {/* <SocialLogin></SocialLogin> */}
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
